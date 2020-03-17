@@ -164,6 +164,30 @@ div.form div.main form button[type=submit]:hover {
   text-shadow: 0 0 8px rgba(32, 140, 212, 0.424);
   color: #208cd4;
 }
+@keyframes blink {
+  5%, 15% {
+    transform: rotateX(0deg);
+  }
+  50%, 80% {
+    transform: rotateX(90deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+div.form div.main form #eye {
+  float: left;
+  position: absolute;
+  left: -10px;
+  border-radius: 50%;
+  padding: 10px;
+  margin-top: 4px;
+  animation-name: blink;
+  animation-duration: 2s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
 
 section.main {
   width: 80%;
