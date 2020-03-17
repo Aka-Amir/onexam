@@ -1,0 +1,21 @@
+CREATE TABLE Question (
+    subject TEXT , 
+    title TEXT , 
+    op1 Text ,
+    op2 Text ,
+    op3 Text ,
+    op4 Text ,
+    answer TEXT ,
+    idkey Text
+)
+CREATE TABLE users (
+    username TEXT , 
+    passwd TEXT , 
+    role TEXT
+)
+CREATE TABLE result (
+    fullname TEXT , 
+    code TEXT , 
+    phone TEXT ,
+    examcode TEXT
+)

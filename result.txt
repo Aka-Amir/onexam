@@ -1,0 +1,10 @@
+Array
+(
+    [0] => Array
+        (
+            [username] => amir
+            [passwd] => khalili
+            [role] => teacher
+        )
+
+)
